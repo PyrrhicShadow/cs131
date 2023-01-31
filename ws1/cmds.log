@@ -1,0 +1,84 @@
+    1  help
+    2  wget www.github.com
+    3  ls
+    4  mkdir cs131
+    5  ls
+    6  cd cs131
+    7  ls
+    8  git init
+    9  ls
+   10  mkdir ws1
+   11  ls
+   12  git status
+   13  cd ws1
+   14  touch test.txt
+   15  ls
+   16  cd ..
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit -m "Creating repo and adding test file"
+   21  git help
+   22  git clone https://github.com/PyrrhicShadow/cs131.git
+   23  git status
+   24  cd .
+   25  git status
+   26  cd .
+   27  cd ..
+   28  ls
+   29  cd cs 131
+   30  cd cs131
+   31  ls
+   32  help
+   33  cd ..
+   34  passwd jake23sp
+   35  passwd
+   36  logout
+   37  passwd
+   38  logout
+   39  ls
+   40  rm -d cs131
+   41  rm cs131
+   42  rm -f cs131
+   43  rm -f-d cs131
+   44  rm --help
+   45  rm -r cs131
+   46  ls
+   47  git clone https://github.com/PyrrhicShadow/cs131.git
+   48  ls
+   49  cd cs131
+   50  ls
+   51  mkdir ws1
+   52  git status
+   53  ls
+   54  wget www.github.com
+   55  git status
+   56  help history
+   57  history -anrw ./ws1/history.txt
+   58  history
+   59  cd ws1
+   60  ls
+   61  history -w ./ws1/history
+   62  ls
+   63  git status
+   64  cd..
+   65  cd ..
+   66  git status
+   67  git add /ws1/
+   68  git add ws1/
+   69  git status
+   70  rm index.html
+   71  git status
+   72  echo .bash_history
+   73  cd ..
+   74  ls
+   75  echo ./.bash_history
+   76  logout
+   77  ls
+   78  history
+   79  help history
+   80  ls cs131/ws1
+   81  git status
+   82  cd cs131/ws1
+   83  git status
+   84  history > cmds.log
