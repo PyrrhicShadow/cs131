@@ -2,9 +2,11 @@
 
 SJSU CS 131 Processing Big Data, Spring 2023, Jake Kao
 
+# VIM tips 
+
 Added this line using vim. 
 
-Remember: 
+### Edit mode: 
 
 * i - insert at cursor pos 
 * I - insert at beginning of line
