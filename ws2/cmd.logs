@@ -1,0 +1,21 @@
+  445  git status
+  446  ls
+  447  cd ws2
+  448  ls
+  449  rm amazon_reviews_us_Books_v1_02.tsv
+  450  wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  451  gunzip amazon_reviews_us_Books_v1_02.tsv.gz
+  452  touch .gitignore
+  453  vim .gitignore
+  454  git status
+  455  git add .gitignore
+  456  git status
+  457  grep "[YN]\sY" amazon_reviews_us_Books_v1_02.tsv
+  458  grep "[YN]\sN" amazon_reviews_us_Books_v1_02.tsv
+  459  grep "[YN]\sY" amazon_reviews_us_Books_v1_02.tsv | wc -lw > counts.txt
+  460  grep "[YN]\sN" amazon_reviews_us_Books_v1_02.tsv | wc -lw >> counts.txt
+  461  git status
+  462  git add .
+  463  git commit -m "Grabbed line and word coutns for verified and unverified reviews"
+  464  vim counts.txt
+  465  history | tail -20 > cmd.logs
