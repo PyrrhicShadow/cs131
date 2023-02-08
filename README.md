@@ -9,6 +9,10 @@ Added this line using vim.
 ### Normal mode: 
 
 * u - undo
+* yy - copy line 
+* p - paste below current position 
+* P - paste above current position 
+* [num]yy - copy number of lines from the current cursor position
 
 ### Edit mode: 
 
